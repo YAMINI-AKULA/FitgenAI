@@ -19,9 +19,9 @@ How to run? : in the GCP console select cloud funtion and use the options to cre
 - requirements.txt: contain all the necessary installations.
 
 How to run? : In the console open, Google app engine and click on open editor , use the code (main.py) and the requirements.txt, Dockerfile file to successfully pull the recommendations field from firestore data and feed it into Gemini-1.5-pro for personalized recommendation. Then, in the terminal make sure you navigate to the your project and the folder containing the
-deploymnet code and run the following command
+deploymnet code and run the following command for the app to be deployed via StreamLit
 
-`gcloud run deploy - port=3000 - allow-unauthenticated - platform=managed - region=us-central1 - source=. –your-service-account , the app will be deployed via StreamLit`
+`gcloud run deploy - port=3000 - allow-unauthenticated - platform=managed - region=us-central1 - source=. –your-service-account`
 
 ### Demo
 Once you have deployed the app successfully you can input your prompt and get receive personalized recommendations from your historical data with the help of GEMINI-1.5-pro on Streamlit.
