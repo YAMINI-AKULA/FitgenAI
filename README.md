@@ -2,8 +2,7 @@
 ### Building a fitness chatbot(FitGen AI) using GEMINI-1.5-PRO on the Google Cloud Platform (GCP). The chatbot will analyze workout routines and provide real-time, personalized feedback on posture and exercise techniques, helping users improve their workout efficiency and safety.The bot is re-trained on the recomendations and workout patterns, thereby providing better feed back.
 
 ### Documentation: For more detailed implemetation please refer to the blog
-[Link](https://medium.com/@yakula7/how-to-build-a-personalized-fitness-chatbot-powered-by-gemini-on-google-cloud-platform-2c49041321b8)
-https://medium.com/@yakula7/how-to-build-a-personalized-fitness-chatbot-powered-by-gemini-on-google-cloud-platform-2c49041321b8
+[Medium blog Link](https://medium.com/@yakula7/how-to-build-a-personalized-fitness-chatbot-powered-by-gemini-on-google-cloud-platform-2c49041321b8)
 
 ### function-source.zip : This folder contains code to run the google cloud storage trigger funtion. 
 - main.py: Contains the code for cloud funtion trigger and getting the recomendations via gemini-1.5-pro into the firestore database.
