@@ -1,5 +1,5 @@
 # FitgenAI
-### Building a fitness chatbot(FitGen AI) using GEMINI-1.5-PRO on the Google Cloud Platform (GCP). The chatbot will analyze workout routines and provide real-time, personalized feedback on posture and exercise techniques, helping users improve their workout efficiency and safety.The bot is re-trained on the recomendations and workout patterns, thereby providing better feed back.
+Building a fitness chatbot(FitGen AI) using GEMINI-1.5-PRO on the Google Cloud Platform (GCP). The chatbot will analyze workout routines and provide real-time, personalized feedback on posture and exercise techniques, helping users improve their workout efficiency and safety.The bot is re-trained on the recomendations and workout patterns, thereby providing better feed back.
 
 ### Documentation: For more detailed implemetation please refer to the blog
 [Medium blog Link](https://medium.com/@yakula7/how-to-build-a-personalized-fitness-chatbot-powered-by-gemini-on-google-cloud-platform-2c49041321b8)
@@ -25,6 +25,7 @@ deploymnet code and run the following command
 
 ### Demo
 Once you have deployed the app successfully you can input your prompt and get receive personalized recommendations from your historical data with the help of GEMINI-1.5-pro on Streamlit.
-https://cdn-images-1.medium.com/max/1600/1*Ab43lJzd_8wKwR4gtveTIQ.png![image](https://github.com/user-attachments/assets/0999559a-bd42-4117-8b5f-009a6ce55177)
+https://cdn-images-1.medium.com/max/1600/1*Ab43lJzd_8wKwR4gtveTIQ.png![image](https://github.com/user-attachments/assets/cf39b49b-f8b0-4a13-a845-254b1373e51d)
+
 
 
