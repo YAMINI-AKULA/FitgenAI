@@ -4,6 +4,10 @@ Building a fitness chatbot(FitGen AI) using GEMINI-1.5-PRO on the Google Cloud P
 ### Documentation: For more detailed implemetation please refer to the blog
 [Medium blog Link](https://medium.com/@yakula7/how-to-build-a-personalized-fitness-chatbot-powered-by-gemini-on-google-cloud-platform-2c49041321b8)
 
+### Demo
+Once you have deployed the app successfully you can input your prompt and get receive personalized recommendations from your historical data with the help of GEMINI-1.5-pro on Streamlit.
+![image](https://github.com/user-attachments/assets/876ef970-d0dd-4996-9e0f-f8e44efec01f)
+
 ### function-source.zip : This folder contains code to run the google cloud storage trigger funtion. 
 - main.py: Contains the code for cloud funtion trigger and getting the recomendations via gemini-1.5-pro into the firestore database.
 - requirements.txt: contains all the necessary installations.
@@ -23,9 +27,7 @@ deploymnet code and run the following command for the app to be deployed via Str
 
 `gcloud run deploy - port=3000 - allow-unauthenticated - platform=managed - region=us-central1 - source=. –your-service-account`
 
-### Demo
-Once you have deployed the app successfully you can input your prompt and get receive personalized recommendations from your historical data with the help of GEMINI-1.5-pro on Streamlit.
-![image](https://github.com/user-attachments/assets/876ef970-d0dd-4996-9e0f-f8e44efec01f)
+
 
 
 
